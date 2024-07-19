@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Biblioteca E.E Cid Rosado</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container-h1">
+    <h1>Bem vindo ao nosso Acervo virtual!</h1>
+    </div>
+
+  <div class="container">
+    <img src="acervovirtuallogo.jpg" alt=""/>
+  </div>
+
+  <a href="https://play.google.com/store/apps/details?id=com.faultexception.reader&pcampaignid=web_share">Baixar Lithium: Leitor de epub para celular</a>
+<br>
+<br>
+<a href="https://baixarparapc.com/app/com.faultexception.reader.html">Baixar Lithium: Leitor de epub compativel com Windows 10/11 e Mac</a>
+
+      <br>
+      <br>
+
+      <div class="container-h1">
+      <h1>selecione a sala em que deseja consultar o livro: </h1>
+  </div>
+
+
+  <div class="container">
+    <select id="selector">
+      <option value="pagina6.html"> 6º Ano </option>
+      <option value="pagina7.html"> 7º Ano </option>
+      <option value="pagina8.html"> 8º Ano </option>
+      <option value="pagina9.html"> 9º Ano </option>
+      <option value="pagina1.html"> 1º Ano </option>
+      <option value="pagina2.html"> 2º Ano </option>
+      <option value="pagina3.html"> 3º Ano </option>
+    </select>
+    <button id="botao1"> Selecionar </button>
+  </div>
+
+  <script>
+
+    let botao = document.getElementById("botao1")
+
+    botao.onclick = function() {
+      let valor = document.getElementById("selector").value
+      window.location.href = valor
+    }
+    
+  </script>
+
+<footer>
+  <p>&copy; Idealizado por: kaiky José de Oliveira, Moyses Ferreira e Pedro Heitor</p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(to bottom, #6495ED, #87CEEB);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.container-h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+img {
+    width: 22%;
+    height: auto;
+    margin: 20px auto;
+}
+
+select {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d2d7d9;
+}
+
+select option {
+    font-size: 16px;
+}
+
+button[type="button"] {
+  background-color: #4CAF50; /* verde */
+  color: #fff; /* branco */
+  padding: 15px; /* espaçamento entre o texto e o bordo */
+  border: none; /* remove a borda */
+  border-radius: 5px; /* arredondamento da borda */
+  width: 200px; /* igual ao tamanho do seletor */
+  font-size: larger; /* aumenta a fonte do botão */
+}
+
+button[type="button"]:hover {
+  background-color: #3e8e41; /* verde escuro */
+}
+
+button[type="button"].voltar {
+  font-size: larger; 
+}
+
+footer {
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  padding: 10px;
+  color: #fff;
+}
